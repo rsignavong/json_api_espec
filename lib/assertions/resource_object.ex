@@ -1,4 +1,4 @@
-defmodule Spec.Helpers.JsonApi.Assertions.ResourceObject do
+defmodule JsonApiEspec.Assertions.ResourceObject do
   use ESpec.Assertions.Interface
   alias JsonApiEspec.Core.{AssertionStep, SubjectParser, SubjectExtractor}
   alias JsonApiEspec.Expectations.ResourceObject, as: ExpectedResourceObject
